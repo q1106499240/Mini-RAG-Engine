@@ -8,7 +8,7 @@ markdown
 - 🚀 **高效检索**：支持稠密向量检索、BM25 关键词检索及混合检索（Hybrid Search）
 - 🗄️ **SQLite 存储**：文档切块后使用 SQLite 数据库持久化，便于管理和扩展
 - 🤖 **Agent 工具**：集成简单的 Agent 框架，可调用外部工具（如计算器、搜索等）
-- 🌐 **Web 界面**：基于 Flask 的前端交互界面，支持对话式问答
+- 🌐 **Web 界面**：基于 Vue3 的前端交互界面，支持对话式问答
 - 🔌 **多模型支持**：可接入 OpenAI API / DeepSeek API 等 LLM 服务
 - 🧩 **模块化设计**：核心组件（加载器、嵌入器、检索器、生成器）松耦合，易于定制
 
@@ -23,7 +23,7 @@ markdown
 | 嵌入向量生成    | 调用 OpenAI / DeepSeek Embeddings API|
 | 数据库          | SQLite3                              |
 | Web 后端        | Python + Flask                       |
-| 前端界面        | HTML / CSS / JavaScript              |
+| 前端界面        | Vue3              |
 
 ## 📦 环境要求
 
